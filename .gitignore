@@ -1,0 +1,18 @@
+# Simulation outputs
+*.vcd
+*.vvp
+
+# GTKWave save files
+*.gtkw
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# VS Code settings
+.vscode/
+
+# OpenLane outputs
+runs/
