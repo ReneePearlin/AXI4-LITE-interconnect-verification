@@ -29,89 +29,50 @@
 Theory phase in progress.
 RTL design not started.
 
-Session 2 (11-06-2026)
 
-Completed
+## Session 2 (11-06-2026)
 
-AXI4-Lite Channels
+### Completed
 
-* Write Address Channel (AW)
-* Write Data Channel (W)
-* Write Response Channel (B)
-* Read Address Channel (AR)
-* Read Data Channel (R)
+* AXI4-Lite Channels (AW, W, B, AR, R)
+* Write and Read Transaction Flow
+* AXI Channel Directions
+* Address and Data Channel Separation
+* Write and Read Handshake Sequence
+* Write and Read Completion Conditions
+* Interconnect Fundamentals
+* Transaction Routing Concepts
+* Address Decoder Introduction
+* Slave Selection Logic
+* Address Range Mapping Review
+* Invalid Address Detection
+* AXI Error Response Concept
+* Interconnect Write anad Read Path Overview
+* Response Routing Overview
+* Combinational vs Sequential Logic
+* State and Storage Concepts
+* Register Fundamentals
+* slave_sel_reg Concept
+* Need for Transaction State Storage
+* State Encoding Basics
+* Register Width Calculation
 
-Write Transaction Flow
+### Next Session
 
-* AW handshake
-* W handshake
-* B handshake
-* Conditions for write completion
+* Interconnect Architecture Deep Dive
+* Complete Interconnect Block Diagram
+* Address Decoder Architecture
+* Write Router Architecture
+* Read Router Architecture
+* Response Multiplexer Architecture
+* Internal Signal Flow
+* Transaction Timing Walkthroughs
+* RTL Module Partitioning
+* RTL Implementation Planning
 
-Read Transaction Flow
-
-* AR handshake
-* R handshake
-* Conditions for read completion
-
-AXI Handshaking Review
-
-* VALID/READY mechanism on all channels
-* Channel directions
-* Independent channel operation
-
-Address Decoding Review
-
-* Address range mapping
-* Slave selection
-* Invalid address detection
-* Error response concept
-
-Interconnect Fundamentals
-
-* Role of the interconnect
-* Transaction routing
-* Write path overview
-* Read path overview
-* Response routing
-
-State and Storage Concepts
-
-* Need for remembering selected slave
-* Register-based state storage
-* slave_sel_reg concept
-* Sequential vs combinational logic
-
-RTL Design Concepts
-
-* Decoder output encoding
-* Register width calculation
-* State encoding basics
-* Invalid state handling
-
-Key Understanding Achieved
-
-* How AXI-Lite transactions move through an interconnect
-* Why address and data channels are separated
-* How slave selection is performed
-* Why internal state is required
-* How selected slave information is preserved between cycles
-
-Next Session
-
-Interconnect Architecture Deep Dive
-
-* Complete internal block diagram
-* Address decoder architecture
-* Write path architecture
-* Read path architecture
-* Response multiplexer architecture
-* Transaction timing examples
-* Internal signal flow
-* RTL module breakdown
-
-Status
+### Status
 
 Theory phase nearly complete.
-Next session transitions from architecture design toward RTL implementation planning.
-RTL coding expected to begin after architecture review.
+Interconnect architecture is the final major theory topic.
+RTL design and coding will begin after architecture review.
+
