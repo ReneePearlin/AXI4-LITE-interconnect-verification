@@ -76,3 +76,26 @@ Theory phase nearly complete.
 Interconnect architecture is the final major theory topic.
 RTL design and coding will begin after architecture review.
 
+## Session 3 (17-07-2026)
+
+### Completed
+- Internal architecture of AXI4-Lite Interconnect
+- Address Decoder
+- Slave Selection
+- Routing Logic
+- Response Multiplexer (MUX)
+- Internal Signals
+- Internal Registers
+- `slave_sel_reg`
+- `write_in_progress`
+- `read_in_progress`
+- Clock and Reset considerations
+- Single Outstanding Transaction design
+- Transaction stalling using READY signals
+- Design trade-offs: Simplicity vs multiple outstanding transactions
+- Overall interconnect micro-architecture
+- Finite State Machine (FSM) design
+
+NEXT:
+- RTL planning
+- Begin Verilog implementation of AXI4-Lite Interconnect
