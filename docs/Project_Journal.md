@@ -99,3 +99,13 @@ RTL design and coding will begin after architecture review.
 NEXT:
 - RTL planning
 - Begin Verilog implementation of AXI4-Lite Interconnect
+
+  Session 4 (RTL Planning)
+Completed
+Designed the memory map
+Assigned address ranges to GPIO and UART
+Planned register offsets within each slave
+Defined decoder outputs (slave_sel and validity)
+Established invalid-address behavior
+Determined that the address decoder will be combinational
+Integrated the decoder into both read and write transaction flows
